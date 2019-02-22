@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box ;
+    width: 100%;
+
+}
+
+/*--------------- LANDING PAGES -------------------- */
+
+.inicio{
+    background-image: url(assets/antarctica-cold-floating-48178.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Cinzel', serif;
+    width: 100vw;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.titulo{
+    font-size: 8em;
+    margin-top: 0;
+    text-shadow:2px 0 2px #fff;
+}
+
+
+.subtitulo{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    width: 100%;
+    text-shadow:0 0 20px rgba(34, 112, 147,1.0);
+}
+
+.bComenzar{
+    display: inline-block;
+    margin-top: 15px;
+    line-height: 3;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(34, 112, 147);
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(247, 241, 227,1.0);
+    transition: 0.5s;
+}
+
+.bComenzar:hover{
+    background-color: rgba(236, 240, 241,1.0);
+    color:rgba(34, 112, 147,1.0);
+    border-radius: 20px;
+}
+/*--------------- FIN DE LANDING PAGES -------------------- */
+/*--------------- -------------------- -------------------- */
+/*--------------- -------------------- -------------------- */
+
+/*------ FOOTER ------*/
+.footer{
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    width: 100%;
+}
